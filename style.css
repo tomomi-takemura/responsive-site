@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
+html {
+  margin: 0px;
+  background-color: #f8eeea; }
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  background-color: #de5b56;
+  font-family: “さわらび明朝“, “HG明朝E”, “ＭＳ Ｐ明朝“, “MS PMincho”, “MS 明朝“, serif; }
+
+.top {
+  background-image: url(image/top.jpg);
+  width: 100%;
+  height: 500px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  background-size: cover;
+  background-position: center center; }
+
+h1 {
+  font-size: 200%;
+  font-style: bold;
+  margin: 20px;
+  color: #fff;
+  text-align: center; }
+
+.container {
+  display: flex; }
+
+.text-box {
+  background: #fff;
+  width: calc((100% - 40px) / 3);
+  margin: 0px 0px 0px 10px; }
+
+.text-box-last {
+  background: #fff;
+  width: calc((100% - 40px) / 3);
+  margin: 0px 10px 0px 10px; }
+
+.text-box .box-title {
+  font-size: 150%;
+  background: #5c3221;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center; }
+
+.text-box p {
+  font-size: 100%;
+  padding: 15px 20px;
+  margin: 0; }
+
+.text-box-last .box-title {
+  font-size: 150%;
+  background: #5c3221;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center; }
+
+.text-box-last p {
+  font-size: 100%;
+  padding: 15px 20px;
+  margin: 0; }
+
+footer {
+  background-color: #f8eeea;
+  margin: 30px 0 0 0;
+  padding: 30px 0 0 0; }
+
+h2 {
+  text-align: center; }
+
+.button {
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+  background: #de5b56;
+  border-radius: 5px; }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; }
+
+  .text-box {
+    width: auto;
+    margin: 10px; }
+
+  .text-box-last {
+    width: auto;
+    margin: 10px; }
+
+  .top {
+    height: 250px; } }
+
+/*# sourceMappingURL=style.css.map */
